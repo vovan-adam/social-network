@@ -1,0 +1,39 @@
+
+body
+{
+  margin: 0;
+  background-color: #040216;
+  color: #fff;
+}
+.App
+{
+  color: #fff;
+  max-width: 1200px;
+  margin: 0 auto;
+  width: 100%;
+  display: grid;
+  grid-template-areas: 
+    "header header"
+    "sidebar profil";
+  grid-gap: 10px;
+}
+.header
+{
+  grid-area: header;
+}
+.sidebar
+{
+  grid-area: sidebar;
+}
+.profil
+{
+  grid-area: profil;
+}
+.App>div
+{
+  padding: 15px;
+  font-size: 20px;
+  background: rgb(70,79,121);
+  border-radius: 10px;
+  text-align: center;
+}
