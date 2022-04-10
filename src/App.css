@@ -81,7 +81,11 @@ a
   padding: 10px;
   border-radius: 10px;
 }
-.post
+.avatar
+{
+  margin-top: 20px;
+}
+.post:not(.name)
 {
   margin: 20px 0;
 }
@@ -89,4 +93,14 @@ a
 {
   width: 40px;
   margin-right: 10px;
+}
+.profil-details:not(span)
+{
+  font-size: 25px;
+  margin-left: 15px;
+}
+.profil-details span,.name
+{
+  font-family: italic;
+  letter-spacing: 3px;
 }
